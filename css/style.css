@@ -1,0 +1,32 @@
+.navbar {
+  margin-top: 0;
+  padding: 0;
+  background-color: #222;
+  position: sticky;
+  z-index: 6;
+}
+a,
+.navbar-nav,
+.navbar-light .nav-link {
+  color: #9fffcb;
+  margin-right: 10px;
+}
+.navbar-light .nav-link:hover {
+  color: white;
+}
+.navbar-brand {
+  font-size: 1.4em;
+  margin-left: 15px;
+  color: #9fffcb !important;
+}
+.navbar-brand:hover {
+  color: #9fffcb !important;
+}
+nav .nav-link {
+  color: #9fffcb !important;
+}
+
+nav .nav-link:hover {
+  color: white !important;
+  transform: scale(1.1);
+}
