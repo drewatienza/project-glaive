@@ -126,3 +126,41 @@ nav .nav-link:hover {
   width: 70%;
   margin: 0 20%;
 }
+
+/* CONTACT SECTION */
+.contactButton {
+  color: #fff;
+  background-color: #000;
+  padding: 0.5rem 0.8rem;
+  display: inline-block;
+  margin-top: 15px;
+  border: 1px solid #c0392b;
+  border-radius: 3px;
+}
+
+.contactButton:hover {
+  color: #fff;
+  background-color: #c0392b;
+  border: 1px solid #000;
+  text-decoration: none;
+}
+
+#contact h1 {
+  text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.4);
+  color: #424242;
+}
+
+#contact p {
+  margin-top: 25px;
+}
+
+/* COPYRIGHT SECTION */
+.copyrightSection {
+  background-color: #444;
+  color: #fff;
+  padding: 30px 5px;
+}
+
+.copyrightSection p {
+  margin: 0;
+}
